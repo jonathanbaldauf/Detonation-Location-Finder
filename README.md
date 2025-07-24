@@ -14,9 +14,6 @@ In experiments involving the impact-triggered detonation of explosives, determin
 
 ## ⚙️ How It Works
 
-The algorithm compares the difference in arrival times between every pair of TOA pins. For each pin pair, it calculates a solution curve representing the possible locations from which a detonation could have originated to result in the observed time difference. Given four valid pin times, the code will generate a plot containing 6 solution curves. Detonation is estimated to have occurred at the centroid of the region where the pin-pair curbes intersect.
-
-
 <p align="left">
   <img src="https://github.com/user-attachments/assets/598e333e-e7ca-431e-bcd8-729b55d0d7cf" alt="example matlab graph" width="300" align="right" style="margin-left: 20px;">
 The algorithm compares the difference in arrival times between every pair of TOA pins. For each pin pair, it calculates a solution curve representing the possible locations from which a detonation could have originated to result in the observed time difference. Given four valid pin times, the code will generate a plot containing 6 solution curves. Detonation is estimated to have occurred at the centroid of the region where the pin-pair curbes intersect.
@@ -30,3 +27,23 @@ The algorithm compares the difference in arrival times between every pair of TOA
 </p>
 
 ---
+
+## 📦 Installation
+
+*Coming soon*
+
+---
+
+## ▶️ Usage
+
+*Coming soon*
+
+---
+
+## 📚 Reference
+
+The mathematical approach, MATLAB code, and experimental validation are described in the following technical report:
+
+**Estimating Detonation Location on a High-Explosive Sheet Using Piezoelectric Probes**  
+*Baldauf et al., Army Research Laboratory, Aug 2023*  
+[**View the full report here**](https://www.dtic.mil/document;accessionNumber=AD1207918;type=TRECMS)
